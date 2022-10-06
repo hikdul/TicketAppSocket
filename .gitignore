@@ -1,0 +1,32 @@
+# CLIENT
+
+## dependencies
+ticket-app-client/node_modules
+ticket-app-client/.pnp
+ticket-app-client/.pnp.js
+## testing
+ticket-app-client/coverage
+# production
+ticket-app-client/build
+## misc
+ticket-app-client/.DS_Store
+ticket-app-client/.env
+ticket-app-client/.env.local
+ticket-app-client/.env.development.local
+ticket-app-client/.env.test.local
+ticket-app-client/.env.production.local
+
+ticket-app-client/npm-debug.log*
+ticket-app-client/yarn-debug.log*
+ticket-app-client/yarn-error.log*
+
+# SERVER
+
+## dependencies
+ticket-app-server/node_modules
+## misc
+ticket-app-server/.env
+ticket-app-server/.env.local
+ticket-app-server/.env.development.local
+ticket-app-server/.env.test.local
+ticket-app-server/.env.production.local
