@@ -1,14 +1,23 @@
 {
-  "name": "tiket-app-server",
+  "name": "01-socket-server-basic",
   "version": "1.0.0",
-  "description": "app que simula la creacion de tickets y tambiem el control de atencion de estos tickets",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
-  "author": "Hector Contreras",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.20"
   }
 }
